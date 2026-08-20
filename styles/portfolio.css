@@ -30,7 +30,6 @@
     border-radius: 5px;
     background-color: rgba(253, 110, 10, 1);
     color: rgba(255, 255, 255, 1);
-    ;
     font-size: 20px;
     font-weight: 700;
     padding: 18px 35px;
@@ -143,12 +142,17 @@ nav ul li a {
     height: 676px;
 } */
 
+
+
+
+
 /* main styles */
 main {
     max-width: 1140px;
     margin: 0 auto;
 }
-main section{
+
+main section {
     margin-top: 130px;
 }
 
@@ -185,13 +189,57 @@ main section{
     gap: 24px;
     justify-content: space-around;
 }
-.skills > .section-description{
+
+.skills>.section-description {
     padding: 30px 115px 50px 115px;
 }
+
 .skill {
     padding: 30px;
     /* border: 1px solid blueviolet; */
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     background: rgba(255, 255, 255, 1);
+}
+
+
+
+
+/* resume styles */
+.resume-container {
+    display: flex;
+    gap: 70px;
+}
+
+.resume-column-title {
+    color: rgba(71, 71, 71, 1);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.cell-title {
+    color: rgba(71, 71, 71, 1);
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.cell-subtitle {
+    color: rgba(117, 117, 117, 1);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.cell-description {
+    color: rgba(117, 117, 117, 1);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.downlaod-cv-button{
+    margin-top: 50px;
+    text-align: center;
 }
