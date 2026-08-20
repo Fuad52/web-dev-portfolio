@@ -152,7 +152,7 @@ main {
     margin: 0 auto;
 }
 
-main section {
+main > section, footer {
     margin-top: 130px;
 }
 
@@ -242,4 +242,59 @@ main section {
 .downlaod-cv-button{
     margin-top: 50px;
     text-align: center;
+}
+
+
+
+
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+    /* padding: 130px 200px 475px 280px */
+}
+
+.left-section-title {
+    color: rgba(24, 24, 24, 1);
+    font-style: Bold;
+    font-size: 35px;
+    font-weight: 700;
+    /* letter-spacing: 0%; */
+    /* text-align: center; */
+}
+
+.left-section-description {
+    color: rgba(117, 117, 117, 1);
+    /* font-style: Regular; */
+    font-size: 18px;
+    font-weight: 400;
+    /* letter-spacing: 0%; */
+    /* text-align: center; */
+}
+
+
+/* .footer-column-right{
+    width: 50%;
+    padding: 130px 230px 130px 0px;
+} */
+
+/* form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+} */
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 10px 20px;
+    border: none;
 }
